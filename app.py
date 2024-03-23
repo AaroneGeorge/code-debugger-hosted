@@ -1,10 +1,4 @@
 import streamlit as st
-from abc import ABC
-import boto3
-import json
-import re
-import requests
-import pprint
 import google.generativeai as palm
 
 palm.configure(api_key='AIzaSyBSX1CACqI6S9OBscb7TT08INLWiw7deL0')
